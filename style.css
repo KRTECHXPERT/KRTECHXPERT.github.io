@@ -1,0 +1,176 @@
+/*https://coolors.co/01161e-124559-598392-d5e4f5-dac4f7*/
+body {
+	background: #01161e;
+	font-family: "Open Sans", sans-serif;
+}
+
+section {
+	min-height: 30vh;
+	box-shadow: -10px 0 25px #01161e;
+}
+
+#intro {
+	/*background-image: url("https://maxmatthews.github.io/background.jpg");*/
+	/*background-size: cover;*/
+	background: #01161e;
+	color: white;
+	height: 100vh;
+	padding: 30px;
+}
+
+#intro h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 96px;
+
+	animation: fadein ease-in 1s;
+}
+
+@media only screen and (max-width: 600px) {
+	#intro h1 {
+		font-size: 48px;
+	}
+}
+
+#intro h3 {
+	opacity: 0;
+	animation-delay: 1s;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	margin-top: 20px;
+}
+
+#intro code {
+	margin-top: 20px;
+	opacity: 0;
+	font-size: 30px;
+	animation-name: fadein;
+	animation-delay: 3s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#intro #arrowDown {
+	font-size: 75px;
+	color: #598392;
+	opacity: 1;
+	animation-name: fadein;
+	animation-delay: 4s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+	position: absolute;
+	bottom: 30px;
+	left: calc(50% - 37px);
+}
+
+#intro #arrowDown:hover {
+	color: #aec3b0;
+}
+
+#about {
+	background: #124559;
+	padding: 30px;
+	color: white;
+}
+
+#contact {
+	background: #598392;
+	color: white;
+	padding: 30px;
+}
+
+#contact a {
+	color: #eff6e0;
+}
+
+#contact input,
+#contact textarea {
+	width: 100%;
+	padding: 10px;
+}
+
+form .row {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+form .btn-primary {
+	margin-top: 15px;
+	width: 100%;
+	background: #124559;
+	border: none;
+}
+
+#portfolio {
+	padding: 30px;
+	background: #d5e4f5;
+}
+
+#portfolio .btn-primary {
+	background: #124559;
+	border: none;
+}
+
+footer {
+	padding: 30px;
+	color: white;
+	background: black;
+	box-shadow: -10px 0 25px #01161e;
+}
+
+.card {
+	color: black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#portfolio a {
+	text-decoration: none;
+}
+
+.bg-dark {
+	background-color: #598392 !important;
+}
+
+section#project {
+	background: #124559;
+	color: white;
+	padding: 30px;
+}
+
+.badge {
+	background-color: #01161e;
+	font-size: 14px;
+}
+
+#project img {
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#project .btn-primary {
+	background-color: #598392;
+}
+
+#project .navigate {
+	color: white;
+	font-size: 50px;
+}
+
+#project .navigate:hover {
+	color: #598392;
+}
+
+#project a {
+	text-decoration: none;
+}
